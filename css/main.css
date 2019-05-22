@@ -1495,6 +1495,9 @@ section:nth-child(odd) {
 #head #slides .slides-container {
 	display: none;
 }
+#head #slides .slides-container .imgOpac{
+	opacity:.5;
+}
 
 #welcome .introduction-table .row{
 	margin-bottom:10px;
