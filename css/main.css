@@ -129,7 +129,52 @@ a {
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
-
+/* menubar*/
+#menuBar {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    display: none;
+}
+.bar1 {
+    transform:rotate(-55deg);
+    position: relative;
+    top:4px;
+    left:1px;
+    color:#000;
+    animation-name:barDown;
+    animation-duration:0.5s;
+    
+}
+@keyframes barDown {
+    from {transform:rotate(0deg);}
+    to{transform:rotate(-55deg);}
+}
+#menuBar > .bar{
+    margin:3px;
+    width:15px;
+    height:2px;
+    background-color:#000;
+    border-radius:5px;
+}
+.bar2 {
+    display:none;
+}
+.bar3 {
+    transform:rotate(55deg);
+    position: relative;
+    top:-3px;
+    left:1px;
+    animation-name:barUp;
+    animation-duration:0.5s;
+}
+@keyframes barUp {
+    from {transform:rotate(0deg);}
+    to{transform:rotate(55deg);}
+}
 
 
 .company{
@@ -1766,6 +1811,9 @@ hr.not-visible{
 	.background-icon{
 		display: none;
 	}
+	 #menuBar {
+        display:block;
+    }
 	.nav li {
 		float:none;
 		display:block;

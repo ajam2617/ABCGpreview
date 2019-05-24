@@ -53,7 +53,7 @@ SLAMR.nav= function(options){
 
 	};
 	
-
+	/*----navbar on click change hover or active to red by sam----*/
 	$(document).on('click', 'ul li', function() {
 	$(this).addClass('active').siblings().removeClass('active');
 })
@@ -82,7 +82,19 @@ SLAMR.nav= function(options){
 		});
 	};
 
+
 };
+
+/*---3 bar menu when window size is less than 768px---*/
+$(document).ready(function() {
+
+  	$('#menuBar').click(function() {
+        $('#slideMenu').slideToggle('slow').width('100%');
+        $('#bar1').toggleClass('bar1');
+        $('#bar2').toggleClass('bar2');
+        $('#bar3').toggleClass('bar3');
+    	});
+  });
 /****************************************************************************************************
  * SLIDE DOWN HEAD
  *
