@@ -53,8 +53,15 @@
 }
 
 #serviceBackgroundColor .text_info {
-	margin:30px auto;
+	margin:0px auto;
 	padding:0 100px; 
+}
+
+/* need to write media queries for different screen size */
+
+#serviceBackgroundColor img {
+	max-height: 487px !important;
+	max-width: 730px !important;
 }
 
 
