@@ -57,15 +57,6 @@
 	padding:0 100px; 
 }
 
-/* need to write media queries for different screen size */
-
-#serviceBackgroundColor img {
-	max-height: 487px !important;
-	max-width: 730px !important;
-}
-
-
-
 /*GENERAL STYLING*/
 
 html, body {
