@@ -1518,6 +1518,11 @@ section:nth-child(odd) {
 	color:black;
 	margin-top:0px;
 }
+
+#head .carousel-inner h2 {
+	text-shadow: 2px 2px 2px #d43336;
+}
+
 #head .container {
 	z-index: 3;
 	position: relative;
