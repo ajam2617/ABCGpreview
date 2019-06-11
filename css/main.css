@@ -1592,10 +1592,12 @@ section:nth-child(odd) {
 	height:100% !important;
 	overflow: hidden;
 	z-index: 1;
+	opacity: .8;
 	
 }
 #head #slides .slides-container {
 	display: none;
+	opacity: .8; 
 }
 #head #slides .slides-container .imgOpac{
 	opacity:.8;
