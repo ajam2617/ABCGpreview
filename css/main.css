@@ -1520,7 +1520,8 @@ section:nth-child(odd) {
 }
 
 #head .carousel-inner h2 {
-	text-shadow: 2px 2px 2px #d43336;
+	text-shadow: 2px 2px 2px #4d4b4b;
+	margin-top: 60px;
 }
 
 #head .container {
