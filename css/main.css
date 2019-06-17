@@ -25,6 +25,7 @@
 .cuadro_intro_hover img{
 	z-index: 4;
 }
+
 .cuadro_intro_hover .caption{
 	position: absolute;
 	top:150px;
