@@ -970,7 +970,7 @@ a {
     text-align: center;
     width: 160px;
     display:block;
-    margin: -180px auto 100px;
+    margin: -180px auto 10px;
 }
 /* INFOBOX MODULE */
 .icon-effect {
@@ -1578,9 +1578,6 @@ section:nth-child(odd) {
 	z-index: -1;
 }
 
-#welcome .introduction-table .row{
-	margin-bottom:10px;
-}
 #clients{
 	background:#fff;
 }
