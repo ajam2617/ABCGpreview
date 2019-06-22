@@ -1828,9 +1828,14 @@ hr.not-visible{
 }
 @media only screen and (max-width: 768px) { /*col-md*/
 	#head .hero h2 {
-		font-size:35px;
-		line-height:35px;
+		font-size:25px;
+		line-height:25px;
 	}
+
+	#consultation-btn {
+		font-size: 12px;
+	}
+
 	.top-nav-collapse .company .border{
 		border:none;
 	}
@@ -1862,7 +1867,7 @@ hr.not-visible{
 	}
 	#landingLogo {
 		display: block;
-		max-width: 50%;
+		max-width: 75%;
 		height: auto;
 	}
 }
