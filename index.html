@@ -442,6 +442,69 @@
 		</div>
 	</section> -->
 
+	<section id="testimonials" class="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="hero col-sm-6 col-sm-offset-3">
+					<h2 class=' animated' data-animation-delay="800" data-animation="zoomIn">Testimonials</h2>
+					<p>What my clients think about me</p>
+					<div class="space"></div>
+				</div>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<div id="owl-carousel-testimonial" class="owl-carousel">
+					<div class="img-testimonial-container animated" data-animation-delay="400"
+						data-animation="fadeInUp"><img src="img/Testimonials/headshot1.jpg" class="img-responsive img-circle" alt="" />
+						<cite title="Source Title" class="text-mute">Lara Walter</cite>
+						<p>
+							Adam was an incredible asset for us when we began planning an expansion of our business. We had a uniquely complicated structure and product, and Adam worked relentlessly to provide the best possible solution for us. We highly recommend him!
+						</p>
+						
+					</div>
+					<div class="img-testimonial-container animated" data-animation-delay="400"
+						data-animation="fadeInUp"><img src="img/Testimonials/headshot2.jpg"
+							class="img-responsive img-circle" alt="" />
+						<cite title="Source Title" class="text-mute">Garry Taylor</cite>
+						<p>
+							Adam has consistently exceeded my expectations. Adam pours his heart into every project and he genuinely cares about the success of his clients. I've been working with Adam for over 15 years and I can always count on him for sound business advice. I look forward to working with him on future projects. 
+						</p>
+						
+					</div>
+					<div class="img-testimonial-container animated" data-animation-delay="400"
+						data-animation="fadeInUp"><img src="img/Testimonials/headshot4.jpg"
+							class="img-responsive img-circle" alt="" />
+						
+						<cite title="Source Title" class="text-mute">Dana Harrison</cite>
+						<p>
+							Adam brought energy and great ideas to improve our operation. His ability to listen enabled him to build strong solutions to positively effect our company and our revenue. He ensured that any issues were resolved promptly. Highly recommended!
+						</p>
+						
+					</div>
+					<div class="img-testimonial-container animated" data-animation-delay="400"
+						data-animation="fadeInUp"><img src="img/Testimonials/headshot3.jpg"
+							class="img-responsive img-circle" alt="" />
+						
+						<cite title="Source Title" class="text-mute">Christian Edwards</cite>
+						<p>
+							Adam is extremely efficient and passionate about his work. He never hesitates to offer his expert guidance when needed and does so in a professional yet personal demeanor. My company is based in Europe, and no matter the challenges, time differences, nor countless changes, Adam has supported our efforts and we are appreciative of his continued efforts. We are beyond pleased and we look forward to continuing our business relationship. 
+						</p>
+					
+					</div>
+					<!-- <div class="img-testimonial-container animated" data-animation-delay="400"
+						data-animation="fadeInUp"><img src="img/ChrisF.jpeg"
+							class="img-responsive img-circle" alt="" />
+						
+						<cite title="Source Title" class="text-mute">Chris Frakes (Vice President, Customer Experience Strategy at Wells Fargo)</cite>
+						<p>
+							Adam is an effective team manager who is truly concerned with providing a great customer experience. His dedication is paralleled only by his professionalism; he would come into the office even on the weekends to get the job done. Adam was quick to provide training on any learning opportunities for the team, and is the type of manager who makes his team want to deliver for him.
+						</p>
+						
+					</div> -->
+				</div>
+			 </div>
+		</div>
+	</section>
+
 	<section id="contact" class="no-section-padding">
 		<svg preserveAspectRatio="none" viewBox="0 0 100 102" height="100" width="100%" version="1.1"
 			xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
@@ -547,7 +610,16 @@
 						"<i class='fa fa-angle-left arrow-round'></i>",
 						"<i class='fa fa-angle-right arrow-round'></i>"
 					]
-				}
+				},
+				'#owl-carousel-testimonial': {
+					singleItem: true,
+					transitionStyle: "goDown",
+					navigation: true,
+					navigationText: [
+						"<i class='fa fa-angle-left arrow-round'></i>",
+						"<i class='fa fa-angle-right arrow-round'></i>"
+					]
+				},
 			});
 			SLAMR.bootstrapCarousel({
 				'#carousel-head': {
