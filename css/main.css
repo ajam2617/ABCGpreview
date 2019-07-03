@@ -1612,7 +1612,7 @@ section:nth-child(odd) {
 	color:#fff;
 }
 #contact .btn-submit {
-	background: #fa4f3e;
+	background: #d40308;
 	color: #fff;
 	border: none;
 }
@@ -1621,7 +1621,7 @@ section:nth-child(odd) {
 #contact .btn-submit:focus,
 #contact .btn-submit:active,
 #contact .btn-submit.active {
-	background: #ff7c6f;
+	background: #cf3c3f;
 	box-shadow:2px 2px 2px #000;
 }
 
