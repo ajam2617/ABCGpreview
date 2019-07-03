@@ -968,7 +968,7 @@ a {
     text-align: center;
     width: 160px;
     display:block;
-    margin: -180px auto 10px;
+    margin: -260px auto 10px;
 }
 /* INFOBOX MODULE */
 .icon-effect {
@@ -1376,7 +1376,7 @@ a {
 
 section {
 	-webkit-backface-visibility: hidden;
-	padding-top: 80px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	background:#fff;
 	position:relative;
@@ -1560,7 +1560,7 @@ section:nth-child(odd) {
 	left: 0;
 	position: fixed !important;
 	top: 0;
-	height:100% !important;
+	height:80% !important;
 	overflow: hidden;
 	z-index: 1;
 	opacity: .8;
