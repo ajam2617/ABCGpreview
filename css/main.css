@@ -1833,6 +1833,10 @@ hr.not-visible{
 		line-height:25px;
 	}
 
+	#landingText 	{
+		margin-top:-40px;
+	}
+
 	#consultation-btn {
 		font-size: 12px;
 	}
