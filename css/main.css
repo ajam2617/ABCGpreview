@@ -356,7 +356,7 @@ a {
 }
 
 .navbar {
-    background:rgba(255, 255, 255, 0.56);
+	background-color: #E6E6E6; background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6), to(#707070));
     padding: 20px 0;
     letter-spacing: 1px;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -967,8 +967,8 @@ a {
     position: relative;
     text-align: center;
     width: 160px;
-    display:block;
-    margin: -260px auto 10px;
+    display: block;
+    margin: -180px auto 10px;
 }
 /* INFOBOX MODULE */
 .icon-effect {
@@ -1455,6 +1455,8 @@ section:nth-child(odd) {
 
 #landingLogo {
 	margin-left: 2%;
+	height: 15%;
+	width: 60%;
 }
 
 #head{
@@ -1563,7 +1565,7 @@ section:nth-child(odd) {
 	height:80% !important;
 	overflow: hidden;
 	z-index: 1;
-	opacity: .8;
+	opacity: .2;
 	
 }
 #head #slides .slides-container {
@@ -1834,7 +1836,7 @@ hr.not-visible{
 	}
 
 	#landingText 	{
-		margin-top:-100px;
+		margin-top:-130px;
 	}
 
 	#consultation-btn {
