@@ -182,7 +182,7 @@ a {
 
 .company{
     position: relative;
-	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-family: 'Literata', serif;
   	font-size: 15px;
     font-weight: 800;
     line-height: 25px;
@@ -216,7 +216,7 @@ a {
 
  #navLogoName {
 	 text-align: center;
-	 font-family: 'Courier New', Courier, monospace;
+	 font-family: 'Literata', serif;
  }
 
 
